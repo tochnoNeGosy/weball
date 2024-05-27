@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание занятости аудиторий</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Расписание занятости аудиторий</h1>
+        <form id="scheduleForm">
+            <input type="text" id="auditorium" name="auditorium" placeholder="Введите данные для построения" required>
+            <button type="button" onclick="generateScheduleRoom()">Построить расписание по кабинету</button>
+			<button type="button" onclick="generateScheduleTeacher()">Построить расписание по преподавателю</button>
+			<button type="button" onclick="generateScheduleGroup()">Построить расписание по группе</button>
+            <button type="button" onclick="clearSchedule()">Очистить</button>
+			<button type="button" onclick="loadGroupList()">Список групп</button>
+			<button type="button" onclick="loadRoomList()">Список кабинетов</button>
+			<button type="button" onclick="loadTeachersList()">Список преподавателей</button>
+        </form>
+        <table id="scheduleTable"></table>
+		<div id="days" class="center-content"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

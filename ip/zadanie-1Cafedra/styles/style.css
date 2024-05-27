@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+	margin-bottom: 50px;
+	
+}
+
+article {
+    background: #f9f9f9;
+    color: #333; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 5px; 
+}
+
+aside {
+    width: 25%;
+    padding: 10px;
+	margin-right: 20px;
+}
+
+.aside-content {
+    padding: 10px;
+	background: #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+	margin-top: auto;	
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input {
+    padding: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}

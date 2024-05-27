@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.card {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    width: 300px;
+    text-align: center;
+	display: flex; /* Используется flexbox для позиционирования элементов */
+    flex-direction: column; /* Элементы в карточке располагаются вертикально */
+    align-items: center; /* Выравнивание элементов по центру по горизонтали */
+    justify-content: center; /* Выравнивание элементов по центру по вертикали */
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0.2em;
+	max-width: 200px;
+}
+
+.input-group {
+    margin-bottom: 1em;
+}
+
+input {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 0.5em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

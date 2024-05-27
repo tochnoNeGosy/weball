@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+input, button {
+    display: block;
+    margin: 10px auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+.free {
+    background-color: #d4edda;
+}
+.occupied {
+    background-color: #f8d7da;
+}
+.center-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.center-content table {
+    margin: 10px;
+}

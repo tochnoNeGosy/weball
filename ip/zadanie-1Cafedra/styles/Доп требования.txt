@@ -1,0 +1,25 @@
+доп требования: 
+	подвал:
+		body {
+		  min-height: 100vh;
+		  display: flex;
+		  flex-direction: column;
+		}
+
+		footer {
+		  margin-top: auto;
+		}
+		
+	фавикон:
+		<link rel="icon" href="faviconV2.png" type="image/x-icon">
+		
+	Типы данных у полей
+		<input type="tel" id="phone" name="phone" required>
+		<input type="password" id="password" name="password" required>
+		
+	Подсказки у полей ввода:
+		<input type="tel" id="phone" name="phone" placeholder="Введите номер телефона" required>
+		<input type="password" id="password" name="password" placeholder="Введите пароль" required>
+		
+	Расширение блоков таблиы:
+		<td rowspan="2">Бакалавриат</td>

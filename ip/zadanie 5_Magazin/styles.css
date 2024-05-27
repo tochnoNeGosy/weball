@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+.left-column, .right-column, .center-column {
+    background-color: #ddd;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+.left-column, .right-column {
+    flex: 0 0 auto;
+}
+
+.center-column {
+    flex: 2;
+    background-color: #fff;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: calc(33% - 1rem);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card .new {
+    color: red;
+    font-weight: bold;
+}
+
+.right-column .chat-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.right-column .chat-box .messages {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.right-column .chat-box .chat-input {
+    display: flex;
+}
+
+.right-column .chat-box .chat-input input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-right: none;
+}
+
+.right-column .chat-box .chat-input button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: auto;
+}
